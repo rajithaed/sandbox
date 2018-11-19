@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my.sandbox.tests", "my.sandbox.tests\my.sandbox.tests.csproj", "{41FDFD8B-4B7E-4995-8E5C-43B6DA1AC8FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A2A2D87-6079-44C8-90BF-EF525C39477F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my.sandbox.api", "my.sandbox.api\my.sandbox.api.csproj", "{998E73B2-3A3E-4487-B26C-60EB646DE430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{41FDFD8B-4B7E-4995-8E5C-43B6DA1AC8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41FDFD8B-4B7E-4995-8E5C-43B6DA1AC8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41FDFD8B-4B7E-4995-8E5C-43B6DA1AC8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{998E73B2-3A3E-4487-B26C-60EB646DE430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{998E73B2-3A3E-4487-B26C-60EB646DE430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{998E73B2-3A3E-4487-B26C-60EB646DE430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{998E73B2-3A3E-4487-B26C-60EB646DE430}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
